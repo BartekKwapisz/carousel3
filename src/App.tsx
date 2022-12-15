@@ -6,8 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <button id="myBtn" >Try it</button>
+    <div className="App"> 
       <Slider></Slider>
     </div>
   )
