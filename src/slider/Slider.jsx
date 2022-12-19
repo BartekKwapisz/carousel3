@@ -1,5 +1,5 @@
 function Slider() {
-  function go(num: number) {
+  function go(num) {
     const buttons = document.querySelectorAll("[data-carousel-button]");
     buttons.forEach(button => {
       const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
@@ -37,13 +37,13 @@ function Slider() {
           </li>
           <li className="slide" id="slide2">
             <img
-              src="https://source.unsplash.com/eOpewngf68w"
+              src="https://source.unsplash.com/uyzVvJtI8pg"
               alt="Nature Image #2"
             />
           </li>
           <li className="slide" id="slide3">
             <img
-              src="https://source.unsplash.com/ndN00KmbJ1c"
+              src="https://source.unsplash.com/QHZn3-0bbEM"
               alt="Nature Image #3"
             />
           </li>
